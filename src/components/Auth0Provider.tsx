@@ -30,7 +30,7 @@ const Auth0ProviderWithNavigate: React.FC<Auth0ProviderWithNavigateProps> = ({
             scope: "openid profile email",
         }}
         onRedirectCallback={onRedirectCallback}
-        cacheLocation="localstorage">(children)</Auth0Provider>
+        cacheLocation="localstorage">{children}</Auth0Provider>
     );
 };
 
